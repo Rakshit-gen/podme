@@ -14,7 +14,7 @@ const LeftSidebar = () => {
     
     <section className='left_sidebar'>
         <nav className='flex flex-col gap-6'>
-            <Link href='/' className='flex cursor-pointer items-center gap-3 pb-1 max-lg:justify-center'>
+            <Link href='/' className='flex cursor-pointer items-center gap-3 pb-2 max-lg:justify-center'>
             <Image src='/icons/logo.svg' alt='podme logo' width={23} height={27} />
             <h1 className='text-24 font-extrabold text-white max-lg:hidden'>PodMe</h1>
             </Link>
